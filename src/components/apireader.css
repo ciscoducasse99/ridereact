@@ -1,0 +1,29 @@
+.scrollmenu {
+  min-height: 40px;
+  background-color: white;
+  border-radius: 20px;
+  overflow-x: scroll;
+  white-space: nowrap;
+
+  -webkit-overflow-scrolling: touch;
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+
+.scrollmenu div {
+  display: inline-block;
+  color: #999;
+  text-align: center;
+  font-size: 14px;
+  padding: 11px 20px;
+  text-decoration: none;
+  margin-left: 0.25em;
+  margin-right: 0.25em;
+}
+
+.scrollmenu a:hover {
+  color: #ccc;
+}
+
+.temp-font {
+  font-size: 60px;
+}
